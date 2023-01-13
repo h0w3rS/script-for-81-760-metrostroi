@@ -7,5 +7,5 @@
 
 P.s Из-за большого объёма файлов скинов, скины залиты на Яндекс.Диск и Google Drive.
 
-Ссылка на ЯД:
+Ссылка на ЯД: https://disk.yandex.ru/d/DkS0lm5F7VU0gg
 Ссылка на Google Drive: https://drive.google.com/file/d/1aNqh3IzCQQSHfuIdM0k7PEGqyQucaIhc
