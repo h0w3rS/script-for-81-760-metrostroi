@@ -8,4 +8,4 @@
 P.s Из-за большого объёма файлов скинов, скины залиты на Яндекс.Диск и Google Drive.
 
 Ссылка на ЯД:
-Ссылка на Google Drive:
+Ссылка на Google Drive: https://drive.google.com/file/d/1aNqh3IzCQQSHfuIdM0k7PEGqyQucaIhc
