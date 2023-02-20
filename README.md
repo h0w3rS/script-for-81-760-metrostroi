@@ -10,7 +10,7 @@
 
 ## Ссылка на скины
 
-- Ссылка на ЯД: https://disk.yandex.ru/d/DkS0lm5F7VU0gg
+- Ссылка на ЯД: https://disk.yandex.ru/d/bkomIKOIM5gOcw
 - Ссылка на Google Drive: https://drive.google.com/file/d/1uzZIKfsk7PCRddGfhjrJAMDc8pVUHF9M
 
 Всем добра :*
