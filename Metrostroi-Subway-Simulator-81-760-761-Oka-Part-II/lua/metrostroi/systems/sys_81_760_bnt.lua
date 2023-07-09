@@ -65,12 +65,13 @@ if SERVER then
 			Train:SetNW2String("BNTTickerInEn1", CIS.TickerEnglish and CIS.TickerInEn1 or "")		
 			
 			--if self.TickerCurr and self.State ~= 1 then self.State = 1 end
-			if CIS.LastSt and Train.STL and self.State ~= 3 then self.State = 3 end
+			if CIS.LastSt and self.State ~= 3 then self.State = 3 end
 		end
 		
-		if CIS.LastSt and Train.STL and self.State ~= 3 then self.State = 3 end
+		if CIS.LastSt and self.State ~= 3 then self.State = 3 end
 		if self.State == 3 and not CIS.LastSt then self.State = 1 end
 		if self.State == 4 and not Train:GetPackedBool("BMCISExtra",false) then self.State = 1 end	
+		
 		if CIS.DoorAlarm and self.State ~= 2 then self.State = 2 end
 		if not CIS.DoorAlarm and self.State == 2 then self.State = 1 end
 		if Train:GetPackedBool("BMCISExtra",false) and self.State > 0 and self.State ~= 4 then self.State = 4 end
@@ -237,7 +238,7 @@ else
 			
 			-- Отрисовка статуса "След. / Текущая" станция
 			if Ticker ~= "" then
-				draw.SimpleText(Ticker,font,139,50,black,TEXT_ALIGN_LEFT,TEXT_ALIGN_CENTER)
+				draw.SimpleText(Ticker,font,139,50,grey,TEXT_ALIGN_LEFT,TEXT_ALIGN_CENTER)
 			end
 			
 			-- наименование текущей станции
